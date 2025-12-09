@@ -14,3 +14,60 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+```
+estate-pro
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ public
+│  └─ vite.svg
+├─ README.md
+├─ src
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ assets
+│  │  └─ react.svg
+│  ├─ components
+│  │  ├─ common
+│  │  │  ├─ ErrorBoundary.jsx
+│  │  │  ├─ Header.jsx
+│  │  │  ├─ LoadingStates.jsx
+│  │  │  └─ StatsCard.jsx
+│  │  ├─ dashboard
+│  │  │  ├─ DashboardStats.jsx
+│  │  │  └─ QuickActions.jsx
+│  │  ├─ premium
+│  │  │  ├─ CompareProperties.jsx
+│  │  │  ├─ InvestmentCalculator.jsx
+│  │  │  ├─ MarketAnalytics.jsx
+│  │  │  └─ MortgageCalculator.jsx
+│  │  └─ property
+│  │     ├─ AuctionBox.jsx
+│  │     ├─ PropertyCard.jsx
+│  │     ├─ PropertyFilters.jsx
+│  │     ├─ PropertyMap.jsx
+│  │     └─ PropertyMapMobile.jsx
+│  ├─ context
+│  │  └─ AppContext.jsx
+│  ├─ data
+│  │  └─ mockData.js
+│  ├─ hooks
+│  │  ├─ useDebounce.js
+│  │  ├─ useFavorites.js
+│  │  ├─ useLocalStorage.js
+│  │  └─ useMediaQuery.js
+│  ├─ index.css
+│  ├─ main.jsx
+│  ├─ pages
+│  │  ├─ Dashboard.jsx
+│  │  ├─ Home.jsx
+│  │  ├─ PropertyDetails.jsx
+│  │  └─ Saved.jsx
+│  └─ utils
+│     ├─ api.js
+│     └─ helpers.js
+└─ vite.config.js
+
+```
